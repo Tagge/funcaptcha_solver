@@ -69,10 +69,6 @@ def getResult(pilImage):
     adjustCloud(c)
     mask = np.zeros(newImage.shape, np.uint8)
     cv2.drawContours(mask, [c], -1, 255, cv2.FILLED)
-    fifthPicture = ""
-    fourthPicture = ""
-    thirdPicture = ""
-    secondPicture =""
     bestPercentage = 100.0
     bestPicture = ""
     goodPics = listdir("all/good")
@@ -84,10 +80,6 @@ def getResult(pilImage):
         res = res.astype(np.uint8)
         percentage = (np.count_nonzero(res) * 100)/res.size
         if(percentage < bestPercentage):
-            fifthPicture = fourthPicture
-            fourthPicture = thirdPicture
-            thirdPicture = secondPicture
-            secondPicture = bestPicture
             bestPercentage = percentage
             bestPicture = key
 
