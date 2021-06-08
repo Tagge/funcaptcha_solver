@@ -21,7 +21,7 @@ We then proceed to find the animals that are in the upright position and copy th
 
 ![](./readme/exemple.png)
 
-Once this is done, we process all pictures to transform them into an adjusted and simplified cloud of dots. We then save all the clouds of dots in a separate file to save on load and processing time when we do the solving.
+Once this is done, we process all pictures (good and bad) to transform them into an adjusted and simplified cloud of dots. We then save all the clouds of dots in a separate file to save on load and processing time when we do the solving.
 
 The solving is then simple : 
 - we take the image of a challenge 
