@@ -27,5 +27,5 @@ The solving is then simple :
 - we take the image of a challenge 
 - we separate the animals of this challenge into individual images
 - for each individual image we transform it into a cloud of dots. 
--    we compare the cloud of dots with our database, and we find the cloud of dots in our database with the smallest deviation
--    if this cloud of dots is associated to a valid image (an animal upright), we know that we need to click on the animal associated to the image
+  - we compare the cloud of dots with our database, and we find the cloud of dots in our database with the smallest deviation
+  - if this cloud of dots is associated to a valid image (an animal upright), we know that we need to click on the animal associated to the image
