@@ -13,7 +13,7 @@ A simple solver for the old version of Funcaptcha. It was a side project, so the
 Even though it shouldn't work anymore, you can still try to use it. You first need to download the prerequisites.  
 Once that's done, just put the chromedriver.exe in the project folder, and it should roll.
 
-#How does it work ?
+# How does it work ?
 
 It works by first gathering a number of challenges to be used for our model. 
 Once we have those challenges, we find the contours of every animal contained in the challenge and we save them as separate pictures.
