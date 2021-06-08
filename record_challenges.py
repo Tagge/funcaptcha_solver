@@ -60,42 +60,42 @@ def recordChallenge(fileName):
     rot320.save(fileName+"/320"+fileName+".png", "PNG")
     
     driver.get_screenshot_as_file(fileName+"/full.png")
-    rot40Test = another_proto.getResult(rot40)
+    rot40Test = model.getResult(rot40)
     if(rot40Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot40.save("positive/"+fileName+".png", "PNG")
         return
-    rot80Test = another_proto.getResult(rot80)
+    rot80Test = model.getResult(rot80)
     if(rot80Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot80.save("positive/"+fileName+".png", "PNG")
         return
-    rot120Test = another_proto.getResult(rot120)
+    rot120Test = model.getResult(rot120)
     if(rot120Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot120.save("positive/"+fileName+".png", "PNG")
         return
-    rot160Test = another_proto.getResult(rot160)
+    rot160Test = model.getResult(rot160)
     if(rot160Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot160.save("positive/"+fileName+".png", "PNG")
         return
-    rot200Test = another_proto.getResult(rot200)
+    rot200Test = model.getResult(rot200)
     if(rot200Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot200.save("positive/"+fileName+".png", "PNG")
         return
-    rot240Test = another_proto.getResult(rot240)
+    rot240Test = model.getResult(rot240)
     if(rot240Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot240.save("positive/"+fileName+".png", "PNG")
         return
-    rot280Test = another_proto.getResult(rot280)
+    rot280Test = model.getResult(rot280)
     if(rot280Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot280.save("positive/"+fileName+".png", "PNG")
         return
-    rot320Test = another_proto.getResult(rot320)
+    rot320Test = model.getResult(rot320)
     if(rot320Test):
         print("A positive match has been registered. Deleting folder now and saving the match ...")
         rot320.save("positive/"+fileName+".png", "PNG")

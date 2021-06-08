@@ -68,35 +68,35 @@ def solveChallenge(apikey):
 
         indicator = False
         while(1==1):
-            rot40Test = another_proto.getResult(rot40) 
+            rot40Test = model.getResult(rot40) 
             if(rot40Test):
                 driver.find_element_by_class_name("rot-40").click()
                 break
-            rot80Test = another_proto.getResult(rot80)
+            rot80Test = model.getResult(rot80)
             if(rot80Test):
                 driver.find_element_by_class_name("rot-80").click()
                 break
-            rot120Test = another_proto.getResult(rot120)
+            rot120Test = model.getResult(rot120)
             if(rot120Test):
                 driver.find_element_by_class_name("rot-120").click()
                 break
-            rot160Test = another_proto.getResult(rot160)
+            rot160Test = model.getResult(rot160)
             if(rot160Test):
                 driver.find_element_by_class_name("rot-160").click()
                 break
-            rot200Test = another_proto.getResult(rot200)
+            rot200Test = model.getResult(rot200)
             if(rot200Test):
                 driver.find_element_by_class_name("rot-200").click()
                 break
-            rot240Test = another_proto.getResult(rot240)
+            rot240Test = model.getResult(rot240)
             if(rot240Test):
                 driver.find_element_by_class_name("rot-240").click()
                 break
-            rot280Test = another_proto.getResult(rot280)
+            rot280Test = model.getResult(rot280)
             if(rot280Test):
                 driver.find_element_by_class_name("rot-280").click()
                 break
-            rot320Test = another_proto.getResult(rot320)
+            rot320Test = model.getResult(rot320)
             if(rot320Test):
                 driver.find_element_by_class_name("rot-320").click()
                 break
